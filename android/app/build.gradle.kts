@@ -10,9 +10,7 @@ android {
     compileSdk = 36
     ndkVersion = "27.0.12077973"
 
-    packagingOptions {
-        jniLibs.useLegacyPackaging = true
-    }
+
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
